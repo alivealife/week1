@@ -201,7 +201,7 @@ header {
 }
 
 .footer-list {
-	li {
+	li:not(:last-child) {
 		text-align: center;
 		margin-bottom: 16px;
 	}
@@ -212,5 +212,6 @@ header {
 
 	li:not(:last-child) {
 		margin-right: 24px;
+		margin-bottom: 0;
 	}
 }

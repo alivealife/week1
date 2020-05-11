@@ -259,7 +259,7 @@ header h1 {
   color: #FFFFFF;
 }
 
-.footer-list li {
+.footer-list li:not(:last-child) {
   text-align: center;
   margin-bottom: 16px;
 }
@@ -272,5 +272,6 @@ header h1 {
 
 .sns-list li:not(:last-child) {
   margin-right: 24px;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=all.css.map */
