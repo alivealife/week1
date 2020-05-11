@@ -270,6 +270,10 @@ header h1 {
           justify-content: center;
 }
 
+.sns-list img {
+  display: block;
+}
+
 .sns-list li:not(:last-child) {
   margin-right: 24px;
   margin-bottom: 0;
