@@ -8,6 +8,11 @@ body {
   box-sizing: inherit;  // 繼承父層 box-sizing 設定
 }
 
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
 .d-flex {
 	display: flex;
 }
@@ -27,9 +32,6 @@ body {
 }
 
 header {
-	&.container {
-		margin-bottom: 48px;
-	}
 
 	h1 {
 		font-size: 80px;
@@ -40,6 +42,9 @@ header {
 	}
 }
 
+.header {
+	margin-bottom: 48px;
+}
 
 .title {
 	align-items: center;

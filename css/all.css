@@ -64,6 +64,11 @@ body {
           box-sizing: inherit;
 }
 
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,15 +89,15 @@ body {
   margin-bottom: 72px;
 }
 
-header.container {
-  margin-bottom: 48px;
-}
-
 header h1 {
   font-size: 80px;
   line-height: 90px;
   padding: 48px 0 24px 0;
   border-bottom: 2px solid #000;
+  margin-bottom: 48px;
+}
+
+.header {
   margin-bottom: 48px;
 }
 
